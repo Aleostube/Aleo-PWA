@@ -38,3 +38,26 @@ self.addEventListener("fetch", (event) => {
     })
   );
 });
+
+Json
+{
+  "name": "Aleo's Daily Vlog",
+  "short_name": "AleoVlog",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#03a9f4",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
